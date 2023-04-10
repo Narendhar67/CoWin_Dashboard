@@ -10,8 +10,8 @@ const VaccinationByAge = props => {
   return (
     <div className="bg-for-all">
       <h1 className="sub-heading">Vaccination by Age</h1>
-      <ResponsiveContainer width="100%" height={300}>
-        <PieChart>
+      <div>
+        <PieChart width={1000} height={300}>
           <Pie
             cx="50%"
             cy="50%"
@@ -27,7 +27,7 @@ const VaccinationByAge = props => {
           </Pie>
           <Legend iconType="circle" align="center" />
         </PieChart>
-      </ResponsiveContainer>
+      </div>
     </div>
   )
 }
