@@ -1,12 +1,5 @@
 // Write your code here
-import {
-  BarChart,
-  ResponsiveContainer,
-  Legend,
-  Bar,
-  XAxis,
-  YAxis,
-} from 'recharts'
+import {BarChart, Legend, Bar, XAxis, YAxis} from 'recharts'
 
 import './index.css'
 
